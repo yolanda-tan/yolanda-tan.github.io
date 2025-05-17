@@ -3,6 +3,8 @@ layout: page
 title: Hello There.
 permalink: /about/
 ---
+<h1>Let me introduce myself:</h1>
+
 <h2>I'm Yolanda.</h2>
 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
 
@@ -12,7 +14,7 @@ permalink: /about/
 <h2>A big part of my life</h2>
 <h3>is skating. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
 
-<h2>I love to</h2>
+<h2>I love to...</h2>
 <h3>
     <ul>
     <li>hang out with my cat, Squid. He loves to play with hair ties and scream for food. Even though Squid pretends he's carefully guarding the house, I know he's actually just snoozing in the sun.</li>
