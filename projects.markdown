@@ -4,7 +4,7 @@ title: Projects.
 permalink: /projects/
 ---
 
-<h1 class="header1_box">Here are some cool things I've made:</h1>
+<h1 class="h1_box">Here are some cool things I've made:</h1>
 
 <p>I get inspired from my daily life, activities I do a lot, or things I am passionate about. </p>
 

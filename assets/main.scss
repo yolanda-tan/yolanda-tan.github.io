@@ -1,6 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+/* DEFAULTS */
+
 
 body {
     background: #FFFAF0;
@@ -18,9 +20,70 @@ h2 {
 
 p {
     font-size: 18px;
+    position: relative;
 }
 
-.header1_box {
+
+/* DEFAULTS BOX */
+
+.h1_box {
     background-color: bisque;
     color:coral;
+    border-width: 3px;
+    border-style: solid;
+    border-color: coral;
+    padding: 10px;
+    width: fit-content;
+}
+
+/* FLEX */
+
+.flex{
+    display: flex;
+}
+
+.flex_gap {
+    gap: 15px;
+}
+
+
+/* CONTENT START */
+
+.start_left {
+    justify-content: flex-start;
+}
+
+.start_right {
+    justify-content: flex-end;
+}
+
+.start_center {
+    justify-content: center;
+}
+
+
+
+/* MOVE */
+.move_right {
+    position: relative;
+    left: 30px;
+}
+
+.move_left {
+    position: relative;
+    right: 30px;
+}
+
+/* SIZE */
+
+.small {
+    width: 150px;
+}
+
+.medium {
+    width: 500px;
+}
+
+.large {
+    width: 700px;
 }
