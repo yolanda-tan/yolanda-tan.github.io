@@ -3,52 +3,74 @@
 ---
 /* DEFAULTS */
 
-
 body {
-    background: #E9ECEF;
+    background: #fafafa;
     font-family: "Trebuchet MS";
+    color: #18181b;
 }
  
 h1 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
     position: relative;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* CURSOR */
+body {
+    cursor: url("/images/cursor/cursor_default.png"), auto;
+}
+
+button, a, .clickable {
+    cursor: url("/images/cursor/cursor_pointer.png"), pointer;
 }
 
 
 /* DEFAULTS BOX */
 
-.h1_box {
-    background-color: #CED4DA;
-    color: #6C757D;
+.box1 {
+    background-color: #bedbff;
+    color: #193cb8;
     padding: 10px;
-    width: fit-content;
 }
 
-.box_s1{
-    background-color: #fecea8;
-    color: #45171d;
+.box2{
+    background-color: #ffd6a7;
+    color: #9f2d00;
     padding: 15px;
 }
 
-.box_s2 {
-    background-color: #c4c1e0;
-    color: #5249b3;
+.box3 {
+    background-color: #fafafa;
+    color: #18181b;
     padding: 15px;
 }
 
-.box_s3 {
-    background-color: #ecf48e;
-    color: #31572c;
-    padding: 15px;
+.box4 {
+    background-color: #eff6ff;
+    color: #193cb8;
+    padding: 10px;
 }
 
 
@@ -78,6 +100,7 @@ p {
     width: fit-content;
 }
 
+
 /* FLEX */
 
 .flex{
@@ -103,6 +126,9 @@ p {
     justify-content: center;
 }
 
+.start_even {
+    justify-content: space-around;
+}
 
 
 /* MOVE */
@@ -132,23 +158,155 @@ p {
  
 
 /* SPACER */
-.space_mini {
+.vspace_mini {
     height: 5px;
 }
 
-.space_small {
+.vspace_small {
     height: 15px;
 }
 
-.space_medium {
+.vspace_medium {
     height: 30px;
 }
 
-.space_large {
+.vspace_large {
     height: 50px;
 }
 
+.vspace_huge {
+    height: 75px;
+}
+
+.hspace_mini {
+    width: 5px;
+}
+
+.hspace_small {
+    width: 15px;
+}
+
+.hspace_medium {
+    width: 30px;
+}
+
+.hspace_large {
+    width: 50px;
+}
+
+
+/* FIGCAPTION */
+.fig_center {
+    text-align: center;
+}
+
+
+/* VIEWPORT SIZE */
+.h100 {
+    min-height: 100vh;
+}
+
+
+/* BUTTON */
+.button1 {
+    padding: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.button1:hover {
+    background-color: #495057;
+    color: #CED4DA;
+}
+
+.button2 {
+    padding: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.button2:hover {
+    background-color: #4f772d;
+    color: #d4db85;
+}
+
+.button3 {
+    padding: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.button3:hover {
+    background-color: #0077b6;
+    color: #90e0ef;
+}
+
+.button4 {
+    padding: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.button4:hover {
+    background-color: #b87a00;
+    color: #fff6cb;
+}
+
+.button5 {
+    padding: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.button5:hover {
+    background-color: #5249b3;
+    color: #c4c1e0;
+}
+
+
+/* LINK */
+.link1 {
+    text-decoration: underline;
+}
+.link1:hover{
+    font-weight: bolder;
+}
+
+
+/* HEADER */
+.back {
+    background-color: fuchsia;
+    padding: 15px;
+}
+
+
+/* CENTERING */
+.center_v {
+    align-items: center;
+}
+
+
 /* PALATTES */
+
+.palette{
+background: #441306;  
+background: #9f2d00;
+background: #f54900;
+background: #ff8904;
+background: #ffb86a;
+background: #ffd6a7;
+background: #fff7ed;
+
+background: #162456;
+background: #193cb8; 
+background: #155dfc;
+background: #51a2ff;
+background: #8ec5ff;
+background: #bedbff;
+background: #eff6ff;
+
+background: #09090b;
+background: #18181b;
+background: #3f3f46;
+background: #71717b;  
+background: #d4d4d8;
+background: #fafafa;
+}
 .palette_1{
 	background: #fafafa; 
 	background: #ffe9e3; 
@@ -190,4 +348,12 @@ p {
     background: #00b4d8;
     background: #90e0ef;
     background: #caf0f8;
+}
+
+.palette_6{
+    background: #b87a00;
+    background: #ffb623;
+    background: #fff6cb;
+    background: #f9db65;
+    background: #765f30;
 }
