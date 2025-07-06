@@ -4,9 +4,9 @@
 /* DEFAULTS */
 
 body {
-    background: #fafafa;
+    background: #eff6ff;
     font-family: "Trebuchet MS";
-    color: #18181b;
+    color: #181818;
 }
  
 h1 {
@@ -51,25 +51,13 @@ button, a, .clickable {
 
 .box1 {
     background-color: #bedbff;
-    color: #193cb8;
+    color: #155dfc;
     padding: 10px;
 }
 
-.box2{
-    background-color: #ffd6a7;
-    color: #9f2d00;
-    padding: 15px;
-}
-
-.box3 {
-    background-color: #fafafa;
-    color: #18181b;
-    padding: 15px;
-}
-
 .box4 {
-    background-color: #eff6ff;
-    color: #193cb8;
+    background-color: #8ec5ff;
+    color: #155dfc;
     padding: 10px;
 }
 
@@ -206,16 +194,24 @@ button, a, .clickable {
     min-height: 100vh;
 }
 
+.h50 {
+    min-height: 50vh;
+}
+
+.w100 {
+    max-width: 100vw;
+}
 
 /* BUTTON */
 .button1 {
     padding: 10px;
     background-color: transparent;
     transition: background-color 0.5s;
+    color: #51a4ff;
 }
 .button1:hover {
-    background-color: #495057;
-    color: #CED4DA;
+    background-color: #ffb86a;
+    color: #fff7ed;
 }
 
 .button2 {
@@ -262,24 +258,39 @@ button, a, .clickable {
 /* LINK */
 .link1 {
     text-decoration: underline;
+    color: #193cb8;
 }
 .link1:hover{
     font-weight: bolder;
+    color: #ff8904;
 }
 
 
 /* HEADER */
-.back {
-    background-color: fuchsia;
-    padding: 15px;
+.headerback {
+    background-color: #ffd6a7;
+    padding: 10px;
 }
 
+.headerbutton {
+    padding: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+    color: #9f2d00;
+}
+
+.headerbutton:hover {
+    background-color: #ff8904;
+    color: #fff7ed;
+}
 
 /* CENTERING */
 .center_v {
     align-items: center;
 }
-
 
 /* PALATTES */
 
