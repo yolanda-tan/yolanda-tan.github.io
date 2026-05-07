@@ -5,30 +5,30 @@
 
 body {
     background: #eff6ff;
-    font-family: "Trebuchet MS";
+    font-family: "Noto Sans";
     color: #181818;
 }
  
 h1 {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 48px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 32px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 24px;
     position: relative;
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 a {
@@ -52,34 +52,13 @@ button, a, .clickable {
 .box1 {
     background-color: #bedbff;
     color: #155dfc;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .box4 {
     background-color: #8ec5ff;
     color: #155dfc;
-    padding: 10px;
-}
-
-
-/* LIST */
-
-.list_s1{
-    background-color: #72efdd;
-    color: #148977;
-    padding: 15px;
-}
-
-.list_s2{
-    background-color: #6fceeb;
-    color: #146f8b;
-    padding: 15px;
-}
-
-.list_s3{
-    background-color: #7b7df2;
-    color: #191b94;
-    padding: 15px;
+    padding: 1rem;
 }
 
 
@@ -138,19 +117,12 @@ button, a, .clickable {
     right: 1vw;
 }
 
-/* SIZE */
-
-.small {
-    width: 230px;
+/* WIDTH */
+.w_normal {
+    width: 90vw;
 }
 
-.medium {
-    width: 500px;
-}
 
-.large {
-    width: 700px;
-}
  
 
 /* SPACER */
@@ -227,17 +199,17 @@ button, a, .clickable {
 
 /* ROUNDED CORNERS */
 .rcorner25 {
-    border-radius: 25px;
+    border-radius: 2rem;
 }
 
 .rcorner15 {
-    border-radius: 15px
+    border-radius: 1rem;
 }
 
 
 /* BUTTON */
 .button1 {
-    padding: 10px;
+    padding: 1rem;
     background-color: transparent;
     transition: background-color 0.5s;
     color: #51a4ff;
@@ -248,7 +220,7 @@ button, a, .clickable {
 }
 
 .button2 {
-    padding: 10px;
+    padding: 1rem;
     background-color: transparent;
     transition: background-color 0.5s;
 }
@@ -258,7 +230,7 @@ button, a, .clickable {
 }
 
 .button3 {
-    padding: 10px;
+    padding: 1rem;
     background-color: transparent;
     transition: background-color 0.5s;
 }
@@ -268,7 +240,7 @@ button, a, .clickable {
 }
 
 .button4 {
-    padding: 10px;
+    padding: 1rem;
     background-color: transparent;
     transition: background-color 0.5s;
 }
@@ -278,7 +250,7 @@ button, a, .clickable {
 }
 
 .button5 {
-    padding: 10px;
+    padding: 1rem;
     background-color: transparent;
     transition: background-color 0.5s;
 }
@@ -287,11 +259,22 @@ button, a, .clickable {
     color: #c4c1e0;
 }
 
+/* IMAGE SIZING */
+.colour_quant {
+    height: 13rem;
+}
+.absolute_unit {
+    height: 16rem;
+}
+.wave_gen {
+    height: 17.5rem;
+    width: 31rem;
+}
 
 /* SWAP IMAGE */
 .swap_main {
-    width: 280px;
-    height: 140px;
+    width: 16rem;
+    height: 8rem;
     background-image: url(../images/header/main1.png);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
@@ -302,8 +285,8 @@ button, a, .clickable {
 }
 
 .swap_proj {
-    width: 99px;
-    height: 66px;
+    width: 7.5rem;
+    height: 5rem;
     background-image: url(../images/header/projects1.png);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
@@ -314,8 +297,8 @@ button, a, .clickable {
 }
 
 .swap_skate {
-    width: 99px;
-    height: 66px;
+    width: 7.5rem;
+    height: 5rem;
     background-image: url(../images/header/skating1.png);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
@@ -326,8 +309,8 @@ button, a, .clickable {
 }
 
 .swap_more {
-    width: 99px;
-    height: 66px;
+    width: 7.5rem;
+    height: 5rem;
     background-image: url(../images/header/more1.png);
     background-size: cover;
     transition: background-image 0.3s ease-in-out;
@@ -348,12 +331,12 @@ button, a, .clickable {
     display: none;
     position: absolute;
     background-color: #fff7ed;
-    min-width: 160px;
+    min-width: 10rem;
     z-index: 1;    
 }
 .droplink {
     color:#9f2d00;
-    padding: 12px 16px;
+    padding: 1rem 1rem;
     display: block;
     text-decoration: none;
 }
@@ -393,9 +376,9 @@ button, a, .clickable {
 }
 
 .headerbutton {
-    padding: 1px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color: transparent;
     transition: background-color 0.5s;
     transition: color 0.3s;
@@ -411,6 +394,13 @@ button, a, .clickable {
 /* CENTERING */
 .center_v {
     align-items: center;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 
@@ -441,8 +431,8 @@ button, a, .clickable {
 /* SCROLLING */
 .scrolling_ul{
     width: 100vw;
-    height: 300px;
-    padding: 20px;
+    height: 16rem;
+    padding: 1rempx;
     display: flex;
     gap: 4vw;
     overflow-x: scroll;
@@ -451,7 +441,7 @@ button, a, .clickable {
 
 .scrolling_li {
   list-style-type: none;
-  padding: 20px;
+  padding: 2rem;
   flex: 0 0 100%;
   scroll-snap-align: center;
 }
